@@ -13,6 +13,7 @@ public class controlFlow3 {
 		arrayLoop();
 		printHighToLow();
 		showOnlyEven();
+		breakTest();
 	}
 
 	public static void sum1to10() {
@@ -66,6 +67,14 @@ public class controlFlow3 {
 		while(inputNum%2==0);
 		console.close();
 
+	}
+	public static void breakTest() {
+		int count = 20;
+		for (int i = 1; i <= count; i++) {
+			System.out.println(i);
+			if (i == 11)
+				break;
+		}
 	}
 
 }
