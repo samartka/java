@@ -24,6 +24,7 @@ public class stringLab {
 		System.out.println("String1 was changed to :" + String1.toUpperCase());
 		System.out.println("String2 was trimmed and changed to :" + String2.trim().toUpperCase());
 		
+				
 		
 		
 		
