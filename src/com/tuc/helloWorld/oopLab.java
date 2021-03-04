@@ -7,6 +7,5 @@ public class oopLab {
 
 	}
 	
-	public static 
 
 }

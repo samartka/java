@@ -5,8 +5,8 @@ public class MobilePhone {
 	private String model;
 
 	public MobilePhone(String _brand, String _model) {
-		brand = _brand;
-		model = _model;
+		this.brand = _brand;
+		this.model = _model;
 	}
 
 	public String getBrand() {
